@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32825.248
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "algorithmStudy", "algorithmStudy\algorithmStudy.vcxproj", "{D52570BA-1AE8-4754-8234-8581349FD7D1}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "그래프 기초", "algorithmStudy\algorithmStudy.vcxproj", "{D52570BA-1AE8-4754-8234-8581349FD7D1}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "dijkstra", "dijkstra\dijkstra.vcxproj", "{95822547-1E7F-4331-AAD1-DC6CCEF24339}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "최단거리 알고리즘", "최단거리 알고리즘\최단거리 알고리즘.vcxproj", "{9A82338B-E55B-42C9-86DD-7E48C0A82974}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,14 +23,14 @@ Global
 		{D52570BA-1AE8-4754-8234-8581349FD7D1}.Release|x64.Build.0 = Release|x64
 		{D52570BA-1AE8-4754-8234-8581349FD7D1}.Release|x86.ActiveCfg = Release|Win32
 		{D52570BA-1AE8-4754-8234-8581349FD7D1}.Release|x86.Build.0 = Release|Win32
-		{95822547-1E7F-4331-AAD1-DC6CCEF24339}.Debug|x64.ActiveCfg = Debug|x64
-		{95822547-1E7F-4331-AAD1-DC6CCEF24339}.Debug|x64.Build.0 = Debug|x64
-		{95822547-1E7F-4331-AAD1-DC6CCEF24339}.Debug|x86.ActiveCfg = Debug|Win32
-		{95822547-1E7F-4331-AAD1-DC6CCEF24339}.Debug|x86.Build.0 = Debug|Win32
-		{95822547-1E7F-4331-AAD1-DC6CCEF24339}.Release|x64.ActiveCfg = Release|x64
-		{95822547-1E7F-4331-AAD1-DC6CCEF24339}.Release|x64.Build.0 = Release|x64
-		{95822547-1E7F-4331-AAD1-DC6CCEF24339}.Release|x86.ActiveCfg = Release|Win32
-		{95822547-1E7F-4331-AAD1-DC6CCEF24339}.Release|x86.Build.0 = Release|Win32
+		{9A82338B-E55B-42C9-86DD-7E48C0A82974}.Debug|x64.ActiveCfg = Debug|x64
+		{9A82338B-E55B-42C9-86DD-7E48C0A82974}.Debug|x64.Build.0 = Debug|x64
+		{9A82338B-E55B-42C9-86DD-7E48C0A82974}.Debug|x86.ActiveCfg = Debug|Win32
+		{9A82338B-E55B-42C9-86DD-7E48C0A82974}.Debug|x86.Build.0 = Debug|Win32
+		{9A82338B-E55B-42C9-86DD-7E48C0A82974}.Release|x64.ActiveCfg = Release|x64
+		{9A82338B-E55B-42C9-86DD-7E48C0A82974}.Release|x64.Build.0 = Release|x64
+		{9A82338B-E55B-42C9-86DD-7E48C0A82974}.Release|x86.ActiveCfg = Release|Win32
+		{9A82338B-E55B-42C9-86DD-7E48C0A82974}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
