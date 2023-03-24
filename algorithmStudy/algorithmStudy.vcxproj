@@ -127,6 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="다익스트라.cpp" />
     <ClCompile Include="벨만포드.cpp" />
     <ClCompile Include="연결요소의 개수.cpp" />
   </ItemGroup>
