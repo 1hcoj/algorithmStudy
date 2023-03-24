@@ -24,6 +24,7 @@
     <ProjectGuid>{d52570ba-1ae8-4754-8234-8581349fd7d1}</ProjectGuid>
     <RootNamespace>algorithmStudy</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>그래프 기초</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -127,8 +128,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="다익스트라.cpp" />
-    <ClCompile Include="벨만포드.cpp" />
     <ClCompile Include="연결요소의 개수.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

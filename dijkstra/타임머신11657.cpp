@@ -19,7 +19,7 @@ int bellman_ford() {
 		distance[i] = INF;
 	}
 
-	for (int i = 1; i <= n ; i++) {
+	for (int i = 1; i <= n; i++) {
 		int a, b, w;
 		for (auto edge : edges) {
 			a = edge.first.first;

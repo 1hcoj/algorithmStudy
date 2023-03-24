@@ -24,11 +24,5 @@
     <ClCompile Include="연결요소의 개수.cpp">
       <Filter>소스 파일\그래프 기초</Filter>
     </ClCompile>
-    <ClCompile Include="벨만포드.cpp">
-      <Filter>소스 파일\최단거리 알고리즘</Filter>
-    </ClCompile>
-    <ClCompile Include="다익스트라.cpp">
-      <Filter>소스 파일\최단거리 알고리즘</Filter>
-    </ClCompile>
   </ItemGroup>
 </Project>
