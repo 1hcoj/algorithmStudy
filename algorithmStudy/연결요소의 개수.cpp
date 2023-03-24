@@ -11,7 +11,7 @@ void dfs(int v, vector<bool>& visited) {
 		if (!visited[v1]) dfs(v1, visited);
 	}
 }
-int main() {
+int notmain() {
 	int n, m;
 	cin >> n >> m;
 
@@ -32,4 +32,5 @@ int main() {
 		}
 	}
 	cout << count << endl;
+	return 1;
 }
