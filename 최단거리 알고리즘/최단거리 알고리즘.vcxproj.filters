@@ -15,16 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="최단경로1753.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="타임머신11657.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="플로이드11404.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="플로이드11780.cpp">
+    <ClCompile Include="특별한 최단경로 1504.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
