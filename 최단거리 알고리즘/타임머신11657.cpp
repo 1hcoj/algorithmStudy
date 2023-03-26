@@ -5,11 +5,10 @@
 using namespace std;
 
 vector<vector<pair<int, int>>> graph;
-const long long INF = INT64_MAX;
 
-
-int main() {
+void bellman() {
 	int n, m, x, v1, v2, w;
+	const long long INF = INT64_MAX;
 	cin >> n >> m >> x;
 	graph = vector<vector<pair<int, int>>>(n + 1);
 	vector<long long> distance(n + 1, INF);

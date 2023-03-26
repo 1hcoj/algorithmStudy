@@ -129,6 +129,8 @@
   <ItemGroup>
     <ClCompile Include="최단경로1753.cpp" />
     <ClCompile Include="타임머신11657.cpp" />
+    <ClCompile Include="플로이드11404.cpp" />
+    <ClCompile Include="플로이드11780.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

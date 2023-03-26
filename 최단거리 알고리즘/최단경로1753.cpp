@@ -4,11 +4,9 @@
 
 using namespace std;
 
-vector<vector<pair<int, int>>> graph;
-const long long INF = INT64_MAX;
-
-
-int main() {
+void daijkstra() {
+	vector<vector<pair<int, int>>> graph;
+	const long long INF = INT64_MAX;
 	int n, m, x, v1, v2, w;
 	cin >> n >> m >> x;
 	graph = vector<vector<pair<int, int>>>(n + 1);
