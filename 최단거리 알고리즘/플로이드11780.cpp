@@ -8,6 +8,7 @@ void floyd11780() {
 	const long long INF = INT64_MAX;
 	cin >> n >> m;
 	vector<vector<long long>> distance(n + 1, vector<long long>(n + 1, INF));
+	// 플로이드 2 핵심 3차원 행렬
 	vector<vector<vector<int>>> route(n + 1, vector<vector<int >> (n + 1));
 	for (int i = 1; i <= n; i++) {
 		for (int j = 1; j <= n; j++) { if (i == j) distance[i][j] = 0; }
@@ -28,6 +29,7 @@ void floyd11780() {
 						route[i][j].push_back(r);
 					}
 					route[i][j].push_back(k);
+					/* i ~ k  사이의 노드만 생각하고 k ~ j 사이의 노드는 생각 못함*/
 					for (int r : route[k][j]) {
 						route[i][j].push_back(r);
 					}
